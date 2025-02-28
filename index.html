@@ -3,16 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Для тебе, коханий</title>
+    <title>Для тебе, моя куріпочка</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Коханий, я тебе люблю!</h1>
-        <p>Ти – найкраще, що трапилося в моєму житті. Дякую за кожен момент разом. Я обожнюю тебе!</p>
-        <button onclick="showHeart()">Натисни мене</button>
-        <div id="heart" class="hidden">❤️</div>
+        <h1>Я кохаю тебе, моя куріпочка! ❤️</h1>
+        <p>Ти моя зірочка, я завжди буду з тобою! </p>
+        
+        <!-- Фото -->
+        <div class="gallery">
+            <img src="IMG20241225005536.jpg" alt="Сімейство борсуків ✨">
+            <img src="20241102214049467jpg" alt="Сплячий янгол 🌜">
+        </div>
+
+        <!-- Музика -->
+        <audio controls autoplay loop>
+            <source src="Nouvelle_Vague_-_Dance_With_Me.mp3" type="audio/mpeg">
+            Твій браузер не підтримує аудіо.
+        </audio>
+
+        <!-- Сердечко-анімація -->
+        <button onclick="showHeart()">Тиць</button>
+        <div id="heart" class="hidden">🫂😻🥰</div>
     </div>
+
     <script>
         function showHeart() {
             document.getElementById('heart').classList.toggle('hidden');
