@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для тебе, коханий</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Коханий, я тебе люблю!</h1>
+        <p>Ти – найкраще, що трапилося в моєму житті. Дякую за кожен момент разом. Я обожнюю тебе!</p>
+        <button onclick="showHeart()">Натисни мене</button>
+        <div id="heart" class="hidden">❤️</div>
+    </div>
+    <script>
+        function showHeart() {
+            document.getElementById('heart').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
